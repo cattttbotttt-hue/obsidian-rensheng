@@ -1,0 +1,12 @@
+# Obsidian 工作區（每台裝置可能不同，唔同步）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+.obsidian/cache
+.obsidian/plugins/obsidian-git/data.json
+
+# 系統垃圾
+.DS_Store
+Thumbs.db
+*.tmp
+.trash/
