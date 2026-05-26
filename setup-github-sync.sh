@@ -23,13 +23,9 @@ if ! git remote get-url origin >/dev/null 2>&1; then
   git remote add origin "$REMOTE"
 fi
 
-if ! /home/wwwwy/.local/bin/gh repo view "${GITHUB_USER}/${REPO}" >/dev/null 2>&1; then
-  echo "正在 GitHub 建立私人倉庫 ${REPO} ..."
-  /home/wwwwy/.local/bin/gh repo create "$REPO" --private --source=. --remote=origin --description "Obsidian vault sync" || {
-    echo "gh 未登入時，請手動到 https://github.com/new 建立私人倉庫：${REPO}"
-    echo "建立後再執行本腳本一次。"
-    exit 1
-  }
+if ! git ls-remote "$REMOTE" >/dev/null 2>&1; then
+  echo "遠端倉庫尚不存在。請到 https://github.com/new 建立私人倉庫：${REPO}"
+  exit 1
 fi
 
 git add -A

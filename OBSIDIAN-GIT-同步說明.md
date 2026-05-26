@@ -4,35 +4,18 @@
 
 GitHub 帳號：`cattttbotttt-hue`
 
-## 第一步：把 SSH 公鑰加到 GitHub（只需做一次）
+遠端倉庫（私人）：https://github.com/cattttbotttt-hue/obsidian-rensheng
 
-1. 打開：https://github.com/settings/ssh/new  
-2. **Title** 隨便填，例如 `obsidian-linux`  
-3. **Key** 貼下面整行（你的公鑰）：
+本機已完成：SSH 金鑰、首次 push、Obsidian Git 插件安裝。
 
-```
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBPGfKkqlMm/nomRuQ4tib29wFmHL+TZEbDrkxuGQbNo obsidian-sync@wwwwy-MINI-PRO-AHP
-```
-
-4. 按 **Add SSH key**
-
-## 第二步：在本機建立 GitHub 遠端倉庫並推送
-
-在終端機執行（SSH 加好之後）：
-
-```bash
-cd "/home/wwwwy/telegram-bridge/人生"
-./setup-github-sync.sh
-```
-
-## 第三步：在 Obsidian 啟用插件
+## 第一步：在 Obsidian 啟用插件（本機做一次）
 
 1. 打開 Obsidian → **設定** → **第三方插件**  
 2. 關閉「限制模式」  
 3. 確認 **Git** 插件已啟用（已預先安裝）  
-4. 插件會約每 **10 分鐘** 自動 commit、pull、push（可在設定裡改）
+4. 插件會約每 **10 分鐘** 自動 commit、pull、push（可在設定 → Git 裡改）
 
-## 其他裝置怎麼做？
+## 第二步：其他裝置怎麼做？
 
 ### 電腦（Windows / Mac / Linux）
 
