@@ -39,6 +39,7 @@ ver.3加入Volumetric Order Flow Structure LuxAlgo
 ver.3試不同商品
 ver.3只做小周期
 ver.2加倉
+ver.3 4點再觀察
 
 先不要小周期參與，分別在觀察區的最高位下單跑一下，和在觀察區最低位各跑一份看看結果比較下，而下單規則第一份損益比1：1，止損按ATR外框，
 
