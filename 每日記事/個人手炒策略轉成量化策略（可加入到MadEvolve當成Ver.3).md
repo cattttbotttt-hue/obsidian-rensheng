@@ -32,7 +32,6 @@
 ver.3加入Volumetric Order Flow Structure LuxAlgo
 ver.3試不同商品
 ver.3只做小周期
-ver.2加倉
 ver.3 再觀察
 BTCUSD只做周六日的策略
 
