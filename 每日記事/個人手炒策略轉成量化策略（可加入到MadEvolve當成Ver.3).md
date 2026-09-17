@@ -27,6 +27,9 @@
 
 我建議先做好1-9點日線觀察區間這部份給我核實，用pinescript與python各寫一個，我可放入tradingview及我的dashboard核對
 
+M15／M5 下單區 : 
+進入日線觀察區後小周期開始觀察，最主要以斐波拉契回撤0.5-0.7之間下單方向完全跟日線方向走，更偏重於斐波拉契回撤
+
 ===========================
 
 ver.3加入Volumetric Order Flow Structure LuxAlgo
